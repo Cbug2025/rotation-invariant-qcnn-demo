@@ -71,7 +71,9 @@ The Quantum model maintains high accuracy across all angles, proving that the ci
 
 *  To reproduce the training and evaluation results:
     ```bash
-    python src/main.py
+    python src/data_loader.py
+    python src/qcnn_demo.py
+    python src/classical_cnn.py
 *   Note: Pre-trained weights are available in the `models/` directory.
 
 ## 7. References
